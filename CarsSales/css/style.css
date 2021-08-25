@@ -1,0 +1,218 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 70%;
+    height: 120px;
+    margin: 0 auto;
+}
+.header {
+    height: 120px;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: auto;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.logo>img {
+    width: 100px;
+}
+
+.block_menu {
+    float: right;
+    height: inherit;
+    text-align: justify;
+}
+
+.menu {
+    font-style: italic;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: block;
+    color: #8B00FF;
+}
+
+.menu li a:hover {
+    color: darkmagenta;
+    background: yellow;
+}
+
+.menu li a:active {
+    color: green;
+}
+
+.content {
+    clear: both;
+    width: 70%;
+    margin: auto;
+}
+
+
+.models div {
+    float: left;
+}
+.models img {
+    width: 300px;
+}
+.models a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.models p {
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+}
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.shortdescription div {
+    display: inline-block;
+    float: left;
+}
+.description { 
+    width: 40%;
+}
+.description p {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.description input {
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    outline-style: none;
+    border: 1px solid transparent;
+    
+}
+.description input:hover {
+    background-color: darkgray;
+    border: 1px solid black;
+    color: aliceblue;
+}
+
+.description input:active {
+    background-color: aqua;
+}
+
+.fulldescription {
+}
+.fulldescription>img {
+    float: left;
+    
+}
+
+.fulldescription p {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    display: block;
+    width: 500px;
+}
+.fulldescription .subtitle {
+    clear: both;
+}
+.subtitle {
+    font-size: 16px;
+}
+
+.fulldescription img {
+    border: 3px solid aqua;
+}
+
+.fulldescription img:hover {
+    border-color: transparent;
+}
+
+.fulldescription p::first-letter,
+.shortdescription p::first-letter,
+.text_charact::first-letter {
+    font-size: 24px;
+    color: blueviolet;
+}
+
+.text_charact {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    color: darkblue;
+}
+
+.characteristics li {
+    list-style-image: url(../img/marker.png);
+    vertical-align: middle;
+    line-height: 25px;
+    font-size: 14px;
+    color: darkblue;
+}
+
+.submit_back p {
+    margin: 3px;
+    font-size: 16px;
+}
+
+.submit_back input,
+textarea {
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Times New Roman';
+    background-color: #FFFFFF;
+}
+
+.submit_back input[type="text"],
+textarea {
+    width: 200pt;
+    text-transform: capitalize;
+}
+
+.submit_back input[alt="mail"]:focus {
+    color: red;
+}
+
+.top_img {
+    width: 600px;
+}
+
+.footer {
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.copyright {
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
